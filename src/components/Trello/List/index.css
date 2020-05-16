@@ -1,0 +1,22 @@
+.container-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 300px;
+  padding: 1rem;
+}
+
+.container-cards.TODO {
+  background-color: chocolate;
+}
+
+.container-cards.DOING {
+  background-color: cornflowerblue;
+}
+
+.container-cards.DONE {
+  background-color: #00dc9d;
+}

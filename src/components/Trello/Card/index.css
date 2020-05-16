@@ -1,0 +1,35 @@
+.container-card {
+  width: 100%;
+  background-color: #FFF;
+  margin-top: 1rem;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.container-card > button.btn-remove {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+}
+
+.container-card > div.color-card {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  background-color: darkgray;
+  border-radius: 50%;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.card-footer.TODO {
+  justify-content: flex-end;
+}

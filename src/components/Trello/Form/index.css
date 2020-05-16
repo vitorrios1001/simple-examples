@@ -1,0 +1,22 @@
+.container-form-new-task {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 20rem;
+  padding: 2rem;
+}
+
+.container-form-new-task > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-form-new-task > form > input,
+.container-form-new-task > form > .input-color {
+  margin-bottom: 0.5rem;
+}
+
+.container-form-new-task > form > .input-color > label {
+  margin-left: 0.5rem;
+  color:gray;
+}
