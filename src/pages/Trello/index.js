@@ -17,13 +17,62 @@ const initialState = [
   },
   {
     id: 2,
+    title: 'Lavar as Louças',
+    member: 'Vitor',
+    color: '',
+    status: STATUS_CARD.TODO
+  },
+  {
+    id: 3,
+    title: 'Lavar as Louças',
+    member: 'Vitor',
+    color: '',
+    status: STATUS_CARD.TODO
+  },
+  {
+    id: 4,
+    title: 'Lavar as Louças',
+    member: 'Vitor',
+    color: '',
+    status: STATUS_CARD.TODO
+  },
+  {
+    id: 5,
+    title: 'Lavar as Louças',
+    member: 'Vitor',
+    color: '',
+    status: STATUS_CARD.TODO
+  },
+  {
+    id: 6,
+    title: 'Lavar as Louças',
+    member: 'Vitor',
+    color: '',
+    status: STATUS_CARD.TODO
+  },
+  {
+    id: 7,
+    title: 'Lavar as Louças',
+    member: 'Vitor',
+    color: '',
+    status: STATUS_CARD.TODO
+  },
+  {
+    id: 8,
+    title: 'Lavar as Louças',
+    member: 'Vitor',
+    color: '',
+    status: STATUS_CARD.TODO
+  },
+  {
+    id: 9,
     title: 'Arrumar a Casa',
     member: 'Vitor',
     color: '',
     status: STATUS_CARD.DOING
   },
   {
-    id: 3,
+    id: 10,
     title: 'Ficar à toa',
     member: 'Ninguem',
     color: '',
