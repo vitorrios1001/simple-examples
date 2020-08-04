@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 import { STATUS_CARD } from '../../../constants'
 
 import Card from '../Card'
@@ -13,7 +13,7 @@ const List = ({
   onRemove,
 }) => {
 
-  const renderCards = () => (
+  const renderCards = useCallback(() => (
     listCards.map((card, idx) => (
       <Card
         key={idx}
@@ -22,7 +22,7 @@ const List = ({
         {...card}
       />
     ))
-  )
+  ), [listCards, onRemove, onMoveCard])
 
   return (
     <div className={`container-cards ${typeCards}`}>

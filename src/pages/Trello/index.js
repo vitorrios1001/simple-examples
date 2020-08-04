@@ -76,7 +76,7 @@ const TreloPage = () => {
   return (
     <div>
       <Form onSubmit={onAdd} />
-    
+
       <div className="container-lists">
 
         <List

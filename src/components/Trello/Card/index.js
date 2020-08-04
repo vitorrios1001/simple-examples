@@ -42,10 +42,13 @@ const Card = props => {
       }
       <div style={{ backgroundColor: color }} className="color-card" />
       <div className="content">
-        <h4>
+        <h3>
           {title}
-        </h4>
+        </h3>
         <span>
+          <strong>
+            Membro: 
+          </strong>
           {member}
         </span>
       </div>

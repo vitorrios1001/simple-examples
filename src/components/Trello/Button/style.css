@@ -1,0 +1,13 @@
+.btn-action-card {
+  min-height: 2rem;
+  background-color: hotpink;
+  border-radius: 0.25rem;
+  text-decoration: none;
+}
+
+
+.btn-action-card > span {
+  color: #FFF;
+  font-weight: 700;
+  font-size: 1rem;
+}
